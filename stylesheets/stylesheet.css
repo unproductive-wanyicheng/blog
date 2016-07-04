@@ -1,3 +1,5 @@
+
+
 /*******************************************************************************
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
@@ -49,13 +51,13 @@ Theme Styles
 *******************************************************************************/
 
 body {
-  box-sizing: border-box;
+  box-sizing: border-box;/*为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制*/
   color:#373737;
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;/*这个属性可以使页面上的字体抗锯齿*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+  letter-spacing: -1px;/*字符间的间距*/
 }
 
 h1 {
@@ -106,7 +108,7 @@ a {
   color: #007edf;
   text-shadow: none;
 
-  transition: color 0.5s ease;
+  transition: color 0.5s ease;     /*改变颜色 时间 缓慢的*/
   transition: text-shadow 0.5s ease;
   -webkit-transition: color 0.5s ease;
   -webkit-transition: text-shadow 0.5s ease;
@@ -237,19 +239,19 @@ table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
- }
+}
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
- }
+}
 
 td {
   padding: 10px;
   border: 1px solid #373737;
- }
+}
 
 form {
   background: #f2f2f2;
@@ -293,6 +295,7 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+
 }
 
 #header_wrap .inner {
@@ -330,7 +333,7 @@ Full-Width Styles
   float: right;
   width: 90px;
   height:70px;
-  text-indent: -5000px;
+  text-indent: -5000px;/*文本缩进*/
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
 }
@@ -389,7 +392,7 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+    font-size: 32px;
   }
 
   h1 {
@@ -423,3 +426,6 @@ Small Device Styles
   }
 
 }
+
+
+
