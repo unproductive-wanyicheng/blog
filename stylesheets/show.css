@@ -1,0 +1,132 @@
+
+#nav .nav_ul{
+    list-style:none;
+    height:60px;
+    border-top:2px solid #007edf;
+    border-bottom:2px solid #007edf;
+    padding-left:60px;
+
+}
+#nav .nav_ul li{
+    float:left;
+
+}
+#nav .nav_ul li a{
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    width:80px;
+    text-decoration: none;
+    margin-top:10px;
+    margin-left:1px;
+
+}
+#nav .nav_ul li a.on, .nav_ul li a:hover{
+    background:#55a532;
+    color:#f1f1f1;
+
+}
+
+.contact{
+
+    width:500px;
+
+
+}
+.contact_form{
+    background-color:#999999;
+    width:500px;
+}
+.contact h2{
+    font-size:18px;
+    font-weight:bold;
+}
+.contact label{
+    font-size:14px;
+}
+.required_notification{
+    font-size: 12px;
+}
+.contact_form ul{
+    width:500px;
+    list-style:none;
+    padding:0;
+
+}
+.contact_form ul li{
+    border-bottom:1px solid #ffffff;
+    padding:10px;
+    position:relative;
+}
+/*.contact_form li:first-child,.contact_form li:last-child{*/
+    /*border-bottom:1px solid #000000;*/
+/*}*/
+.contact_form h2{
+    margin:0;
+    display:inline;
+}
+.required_notification{
+    color:#d45252;
+    float:right;
+    margin:15px 0 0 0;
+}
+.contact_form label{
+  width:100px;
+  display:inline-block;
+  float:left;
+    margin:8px 0;
+    padding:3px;
+
+}
+.contact_form input{
+    height:30px;
+    width:200px;
+    margin:3px 5px;
+}
+.contact_form textarea{
+    width:250px;
+    padding:3px;
+    margin-left:4px;
+}
+.contact_form button{
+    margin-left:110px;
+}
+.contact_form input,.contact_form textarea{
+    border:1px solid #aaa;
+    box-shadow:0 0 3px #ccc,0 10px 15px #eee inset;
+    border-radius:5px;
+}
+button.submit{
+    background-color: #68b12f;
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    /*text-shadow: 0 -1px 0 #396715;*/
+}
+
+.page_normal {
+    padding-left:50px;
+    margin-top:20px;
+   vertical-align: bottom;
+}
+.page_normal a,.page_normal .page_prev,.page_normal .page_nex{
+   padding:3px 5px;
+    font-size:20px;
+   margin-left:10px;
+    border:1px solid #55a532;
+    border-radius: 3px;
+}
+
+.page_normal .page_current{
+    background:#E07514;
+}
+.page_normal a:hover{
+    background:#E07514;
+}
